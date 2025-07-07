@@ -8,7 +8,7 @@ const ColorCardPaletteList = ({colors}) => {
             {colors.map((color) => {
                 return (
                     <div>
-                        <ColorCardPalette likes={color.likes} time={color.time} colors={color.colors} />
+                        <ColorCardPalette likes={color.likes} time={color.time} colors={color.colors} key={color.id} />
                     </div>
                 )
             })}
