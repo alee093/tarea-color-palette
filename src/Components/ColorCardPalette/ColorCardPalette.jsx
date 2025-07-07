@@ -39,7 +39,7 @@ const ColorCardPalette = ({likes: initialLikes, time, colors}) => {
                     }
                     setIsLiked(!isLiked)
                 }}>
-                    <i className={`bi ${isLiked ? "bi-heart-fill" : "bi-heart"}`} style={{ color: isLiked ? "red" : "black" }}></i>
+                    <i className={`bi ${isLiked ? "bi-heart-fill" : "bi-heart"}`} style={{ color: isLiked ? "black" : "black" }}></i>
                     <div className="color-card-likes">{likes}</div>
                 </button>
                 <span className="color-card-time">{time}</span>
